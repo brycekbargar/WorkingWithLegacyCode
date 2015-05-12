@@ -13,8 +13,13 @@ public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 		public object Response { get; set; }
 	}
 	
-	public class ServiceReference : WebService // I think WebService?
+	public class ServiceReference : MagicSOAPService
 	{
+		public ServiceReference(Credentials credentials, string endpoint) : base(credentials, endpoint)
+		{
+			
+		}
+		
 		public Response Send(Request request)
 		{
 			// Some sort of SOAP Witchcraft

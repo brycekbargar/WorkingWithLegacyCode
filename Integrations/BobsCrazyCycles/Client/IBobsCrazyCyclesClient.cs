@@ -12,6 +12,6 @@ public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 	
 	public interface IBobsCrazyCyclesClientWithRequest
 	{
-		TResponse AndGetResponse();
+		TResponse AndGetResponse<TResponse>();
 	}
 }
