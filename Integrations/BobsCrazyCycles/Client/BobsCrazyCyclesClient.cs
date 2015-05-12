@@ -16,7 +16,7 @@ public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 			return this;
 		}
 		
-		public TResponse AndGetResponse<TResponse>()
+		public TResponse AndGet<TResponse>()
 		{
 			// I would refactor something here but I don't have ctrl +R +R...
 			var request = new Request
