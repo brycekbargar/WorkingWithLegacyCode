@@ -18,7 +18,19 @@ public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 		
 		public TResponse AndGetResponse<TResponse>()
 		{
+			// I would refactor something here but I don't have ctrl +R +R...
+			var request = new Request
+			{
+				Request = Request
+			};
 			
+			var response = _serviceReference.Send(request);
+			if(response.Ack != "OK")
+			{
+				throw (ErrorResponse)response.Response;
+			}
+			
+			return (TResponse)response.Response;
 		};
 		
 		public void Dispose()
