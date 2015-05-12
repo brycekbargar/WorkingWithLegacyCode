@@ -1,6 +1,6 @@
 //"Generated" Code
 
-namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
+namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client.Reference
 {
     public class Request
     {
