@@ -21,7 +21,7 @@ namespace WorkingWithLegacyCode.Integrations.BobsCrazyCyclesService
                             {
                                 Version = 3.14M
                             })
-                            .AndGetResponse<ListBicyclePriceResponse>();
+                            .AndGet<ListBicyclePriceResponse>();
                         
                     var cheapestId = 
                         bicyclesForSale
@@ -37,7 +37,7 @@ namespace WorkingWithLegacyCode.Integrations.BobsCrazyCyclesService
                                 Version = 777M,
                                 Id = cheapestId
                             })
-                            .AndGetResponse<PurchaseBicycleResponse>(); 
+                            .AndGet<PurchaseBicycleResponse>(); 
                 }
             }
             catch(ErrorResponse)
