@@ -4,7 +4,6 @@ public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 {
 	public class Request
 	{
-		public decimal Version { get; set;}
 		public object Request { get; set;}	
 	}
 	
