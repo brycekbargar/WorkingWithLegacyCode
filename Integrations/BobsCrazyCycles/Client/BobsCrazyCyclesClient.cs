@@ -1,4 +1,4 @@
-public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
+namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 {
 	public class BobsCrazyCyclesClient : IBobsCrazyCyclesClient, IBobsCrazyCyclesClientWithRequest, IDisposable
 	{

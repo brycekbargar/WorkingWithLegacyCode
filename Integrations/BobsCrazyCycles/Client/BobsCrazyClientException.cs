@@ -1,4 +1,4 @@
-public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
+namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 {
 	public partial class ErrorResponse : Exception
 	{

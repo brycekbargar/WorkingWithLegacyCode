@@ -1,4 +1,4 @@
-public namespace WorkingWithLegacyCode
+namespace WorkingWithLegacyCode
 {
 	public class Program
 	{

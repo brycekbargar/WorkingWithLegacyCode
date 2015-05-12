@@ -1,4 +1,4 @@
-public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCyclesService
+namespace WorkingWithLegacyCode.Integrations.BobsCrazyCyclesService
 {
 	public class BobsCrazyCyclesService : IBobsCrazyCyclesService
 	{

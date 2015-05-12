@@ -1,6 +1,6 @@
 //"Generated" Code
 
-public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
+namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 {
 	public abstract class OrderRequest
 	{
