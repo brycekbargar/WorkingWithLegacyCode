@@ -23,22 +23,22 @@ public namespace WorkingWithLegacyCode.Integrations.BobsCrazyCycles.Client
 		IList<KeyValuePair<int, decimal>> IdsAndPrices { get; set; }
 	}
 	
-	public class OrderTricycleRequest : OrderRequest { }
-	public class OrderTricycleResponse : OrderResponse { }
-	public class ListTricyclePriceRequest : ListPriceRequest { }
-	public class ListTricyclePriceResponse : ListPriceResponse { }
+	public partial class OrderTricycleRequest : OrderRequest { }
+	public partial class OrderTricycleResponse : OrderResponse { }
+	public partial class ListTricyclePriceRequest : ListPriceRequest { }
+	public partial class ListTricyclePriceResponse : ListPriceResponse { }
 		
-	public class OrderBicycleRequest : OrderRequest { }
-	public class OrderBicycleResponse : OrderResponse { }
-	public class ListBicyclePriceRequest : ListPriceRequest { }
-	public class ListBicyclePriceResponse : ListPriceResponse { }
+	public partial class OrderBicycleRequest : OrderRequest { }
+	public partial class OrderBicycleResponse : OrderResponse { }
+	public partial class ListBicyclePriceRequest : ListPriceRequest { }
+	public partial class ListBicyclePriceResponse : ListPriceResponse { }
 		
-	public class OrderClownShoesRequest : OrderRequest { }
-	public class OrderClownShoesResponse : OrderResponse { }
-	public class ListClownShoesPriceRequest : ListPriceRequest { }
-	public class ListClownShoesPriceResponse : ListPriceResponse { }
+	public partial class OrderClownShoesRequest : OrderRequest { }
+	public partial class OrderClownShoesResponse : OrderResponse { }
+	public partial class ListClownShoesPriceRequest : ListPriceRequest { }
+	public partial class ListClownShoesPriceResponse : ListPriceResponse { }
 		
-	public class ErrorResponse
+	public partial class ErrorResponse
 	{
 		public string Message { get; set; }
 		public string Code { get; set; }
